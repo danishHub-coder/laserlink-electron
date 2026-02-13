@@ -1,0 +1,25 @@
+{
+    "name": "laserlinkdesktop",
+    "version": "1.0.0",
+    "description": "LaserLink Desktop Wrapper",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "dist": "electron-builder"
+    },
+    "keywords": [],
+    "author": "Photonics",
+    "license": "ISC",
+    "devDependencies": {
+      "electron": "^40.4.1",
+      "electron-builder": "^26.7.0"
+    },
+    "build": {
+      "appId": "com.photonics.laserlink",
+      "productName": "LaserLink",
+      "win": {
+        "target": "nsis"
+      }
+    }
+  }
+  
