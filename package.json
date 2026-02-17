@@ -1,6 +1,6 @@
 {
     "name": "laserlinkdesktop",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "LaserLink Desktop Wrapper",
     "main": "main.js",
     "scripts": {
@@ -16,7 +16,7 @@
     },
     "build": {
       "appId": "com.photonics.laserlink",
-      "productName": "LaserLink",
+      "productName": "LaserLink2",
       "win": {
         "target": "nsis"
       }
